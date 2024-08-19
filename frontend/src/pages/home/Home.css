@@ -1,0 +1,164 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 73.2px;
+  position: relative;
+}
+
+
+
+.advertisement-Sale{
+
+  width: 100%;
+  background-color: rgb(0, 136, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.advertisement-image{
+  width: 300px;
+}
+
+.advertisement-info{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  gap: 10px;
+  background-color: #fff;
+  width: 400px;
+  height: 300px;
+  padding: 20px;
+  border-radius: 0 10px 10px 0;
+}
+
+.number-sale{
+  font-size: 60px;
+  color: red;
+}
+
+.sale-shopNow-link{
+  background-color: rgb(0, 0, 0);
+  color: #fff;
+  text-decoration: none;
+  padding: 5px 40px;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: bold;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.today-best-deals {
+  margin: 100px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+
+.best-deals-title {
+  padding-bottom: 20px;
+  border-bottom: 2px solid black;
+}
+
+
+
+
+
+
+.ecoActive {
+display: flex;
+align-items: center; 
+justify-content: center;
+
+}
+
+.ecoActive-info{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  background-color: rgb(0, 136, 255);
+  width: 250px;
+  height: 350px;
+  padding: 10px ;
+  z-index: 1;
+  border-radius: 5px;
+}
+
+.ecoActive-info h1{
+  color: #fff;
+  font-weight: bold;
+}
+
+.ecoActive-info p{
+  font-size: 15px;
+  color: #fff;
+  font-weight: 600;
+}
+
+.shopNow-link{
+  background-color: #fff;
+  color: rgb(0, 136, 255);
+  font-size: 20px;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.ecoActive-image{
+  height: 300px;
+}
+
+
+
+
+.reviews {
+  margin: 100px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 60px;
+
+min-width: 400px;
+}
+
+.reviews-title {
+  padding-bottom: 20px;
+  border-bottom: 2px solid black;
+  font-size: 25px;
+}
+
+.add-review {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60%;
+}
+
+
+
+.add-review-btn {
+  background-color: rgb(0, 136, 255);
+  border: none;
+  border-radius: 10px;
+  padding: 10px 20px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+}

@@ -1,0 +1,171 @@
+.dashboard-page {
+  padding-top: 73.3px;
+  display: flex;
+  height: 100vh;
+  position: relative;
+}
+
+.dashboard-side {
+
+  height: 100vh;
+  top: 73.3px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  width: 250px;
+  padding: 20px;
+  background-color: rgb(0, 136, 255);
+  color: #fff;
+  position: fixed;
+}
+
+.side-title {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 30px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.side-links {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 10px;
+  width: 100%;
+
+}
+
+
+
+.side-link {
+  text-decoration: none;
+  font-size: 20px;
+  color: #fff;
+  font-weight: 600;
+  border-bottom: 3px solid;
+  width: 100%;
+  padding-bottom: 10px;
+  display: flex;
+  gap: 10px;
+}
+
+
+
+
+
+
+/* dashboard main */
+
+.dashboard-main {
+  padding: 20px 0;
+  padding-left: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  gap: 60px;
+}
+
+.dashboard-main-carts {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  width: 80%;
+}
+
+.main-cart {
+  border: 1px solid rgb(184, 184, 184);
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  flex: 1;
+}
+
+
+.main-cart p {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.main-cart .name {
+  font-size: 25px;
+  opacity: 0.7;
+}
+
+.main-cart .number {
+  color: red;
+  font-size: 35px;
+}
+
+.seeAll-icon {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+  width: 100%;
+  text-decoration: none;
+}
+
+.seeAll-btn {
+  padding: 8px 0;
+  flex: 1;
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+  background-color: rgb(0, 136, 255);
+  border: none;
+  border-radius: 5px;
+}
+
+.main-icon {
+  font-size: 25px;
+  opacity: 0.7;
+  color: black;
+}
+
+.add-navbarChoise {
+  width: 100%;
+  padding: 0 50px;
+}
+
+.add-navbarChoise-form {
+  padding: 20px;
+  border: 1px solid rgb(184, 184, 184);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+}
+
+.add-navbarChoise-title {
+  opacity: 0.7;
+  font-size: 25px;
+}
+
+.add-navbarChoise-input {
+  padding: 10px 20px;
+  width: 50%;
+  border: 1px solid rgb(184, 184, 184);
+  border-radius: 5px;
+  font-size: 18px;
+}
+
+.add-btn {
+  padding: 10px 20px;
+  width: 20%;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+  background-color: rgb(0, 136, 255);
+  color: #fff;
+  font-weight: bold;
+}

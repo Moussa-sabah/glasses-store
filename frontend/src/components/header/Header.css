@@ -1,0 +1,203 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 70px;
+  width: 100%;
+  border-bottom: 1px solid rgb(193, 193, 193);
+  position: fixed;
+  background-color: #fff;
+  z-index: 2;
+}
+
+/* header left */
+
+.header-left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: rgb(0, 136, 255);
+  font-weight: bold;
+}
+
+.bi-eyeglasses {
+  font-size: 35px;
+}
+
+.web-name {
+  color: rgb(0, 136, 255);
+  text-decoration: none;
+  font-size: 20px;
+}
+
+/* navbar */
+
+.navbar {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  font-size: 18px;
+
+}
+
+.navbar-link {
+  color: rgb(92, 92, 92);
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.navbar-input {
+  border: 1px solid rgb(210, 210, 210);
+  border-radius: 10px;
+  padding: 2px 10px;
+  font-size: 15px;
+}
+
+
+
+
+.brands-option {
+
+  position: relative;
+}
+
+.brands-modal {
+  position: absolute;
+  display: flex;
+  align-items: center;
+
+  top: 30px;
+  padding: 10px;
+  border: 1px solid rgb(159, 159, 159);
+  border-radius: 5px;
+  background-color: #fff;
+  gap: 20px;
+}
+
+.brand-link {
+  flex: 1;
+  text-align: center;
+  color: rgb(0, 136, 255);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+
+.admin-option {
+  position: relative;
+}
+
+.dashboard-create {
+  position: absolute;
+  left: 0px;
+  bottom: -90px;
+  background-color: #fff;
+  border: 1px solid rgb(159, 159, 159);
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 150px;
+}
+
+.dashboard-create .navbar-link {
+  padding: 4px 5px;
+  border-radius: 5px;
+}
+
+.dashboard-create .navbar-link:hover {
+  background-color: rgb(0, 136, 255);
+  color: #fff;
+}
+
+/* header right */
+
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  font-size: 23px;
+  font-weight: 600;
+}
+
+.header-right-signin {
+  font-size: 18px;
+  text-decoration: none;
+  margin-right: 20px;
+  color: black;
+}
+
+
+.userName-logout-account {
+  position: relative;
+}
+
+
+.userModal{
+  background-color:#fff;
+  border-radius: 10px;
+  position: absolute;
+  top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+  padding: 10px;
+  border: 1px solid  rgb(184, 184, 184);
+  width: 150px;
+}
+
+.logout-btn,.account-link {
+ background: none;
+ border: none;
+ color: rgb(0, 136, 255);
+
+ font-size: 16px;
+ text-decoration: none;
+ padding: 2px 10px;
+ border-radius: 5px;
+ width: 100%;
+ text-align: start;
+}
+
+.logout-btn:hover,.account-link:hover{
+  background-color: rgb(0, 136, 255);
+  color: #fff;
+}
+
+
+.userName {
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 20px;
+  color: rgb(92, 92, 92);
+}
+
+.header-right-link {
+  color: black;
+}
+
+.favorites-componenets {
+  position: relative;
+
+}
+
+.favorites-number,.cart-number {
+  position: absolute;
+  top: -5px;
+ right: -10px;
+  background-color: rgb(0, 136, 255);
+  color: #fff;
+  font-size: 12px;
+  width: 20px;
+  height: 19px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cart-componenets{
+  position: relative;
+}

@@ -1,0 +1,31 @@
+.Footer {
+  background-color: rgb(45, 45, 45);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #fff;
+  padding: 30px 0;
+  gap: 40px;
+
+}
+
+.follow-us {
+  text-align: center;
+
+}
+
+.follow-us-links {
+  display: flex;
+  gap: 30px;
+  margin-top: 15px;
+}
+
+.follow-us-links a {
+  color: #fff;
+  font-size: 23px;
+
+}
+
+.copyright{
+  font-size: 17px;
+}

@@ -1,0 +1,218 @@
+.users-table {
+  padding-top: 100px;
+  text-transform: capitalize;
+}
+
+.title-and-table {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  padding-left: 250px;
+}
+
+.table-title {
+  text-align: start;
+  width: 90%;
+  opacity: 0.7;
+
+}
+
+.table {
+  width: 90%;
+  height: 550px;
+  overflow-y: scroll;
+}
+
+table {
+  width: 100%;
+  text-align: start;
+  border-collapse: collapse;
+}
+
+
+th {
+  text-align: start;
+  background-color: rgb(113, 113, 113);
+  padding: 15px;
+  color: #fff;
+  font-size: 18px;
+  border: 1px solid;
+}
+
+
+
+
+tbody tr:nth-child(odd) {
+  background-color: rgb(235, 235, 235);
+}
+
+
+td {
+  padding: 15px;
+  border: 1px solid  rgb(184, 184, 184);
+}
+
+
+
+.delete-btn {
+  padding: 3px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: red;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+
+}
+
+.edit-btn {
+  padding: 3px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: rgb(0, 136, 255);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  margin-right: 20px;
+
+}
+
+
+
+
+
+.all-catrgories-tables {
+  padding-left: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 60px;
+  position: relative;
+
+}
+
+.title-and-table-catrgories {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 10px;
+  padding: 0 60px;
+  width: 100%;
+}
+
+.table-catrgories {
+  width: 100%;
+}
+.table-catrgories.over{
+  height: 275px;
+  overflow-y: scroll;
+}
+
+.table-title-categories {
+  opacity: 0.7;
+}
+
+.to-add-navbarChoise-btn {
+  padding: 5px 10px;
+  border: none;
+  background-color: rgb(161, 161, 161);
+  font-weight: bold;
+  color: #fff;
+  font-size: 18px;
+}
+
+
+
+
+
+
+
+
+
+/*  get categories */
+
+.getCategories {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+}
+
+.getCategories .title-add-table {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 15px;
+  width: 50%;
+
+}
+
+
+
+.title-add {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.getCategories-title {
+  opacity: 0.7;
+  font-size: 20px;
+}
+
+
+
+.to-add-category-btn {
+  padding: 3px 10px;
+  border: none;
+  background-color: rgb(161, 161, 161);
+  font-weight: bold;
+  color: #fff;
+  font-size: 16px;
+}
+
+
+.getCategories-table {
+  width: 100%;
+}
+
+.getCategories-table.over{
+  height: 185px;
+  overflow-y: scroll;
+}
+
+.getCategories .title-add-table table tbody tr td {
+  padding: 8px 10px;
+  font-size: 15px;
+}
+
+.getCategories .title-add-table table thead th {
+  padding: 8px 10px;
+  font-size: 16px;
+}
+
+
+
+.edit-button {
+  padding: 1px 20px;
+  background-color: rgb(0, 136, 255);
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  font-size: 15px;
+  font-weight: bold;
+  margin-right: 20px;
+}
+
+.delete-button {
+  padding: 1px 20px;
+  background-color: red;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  font-size: 15px;
+  font-weight: bold;
+}

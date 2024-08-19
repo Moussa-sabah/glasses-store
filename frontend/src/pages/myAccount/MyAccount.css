@@ -1,0 +1,68 @@
+
+
+.myAccount{
+  padding: 100px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+}
+
+.photo-section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 10px;
+}
+.photo-section-input{
+  display: none;
+}
+.photo-section-label{
+  background-color:  rgb(184, 184, 184);
+  color: #fff;
+  padding: 3px 10px;
+  font-size: 13px;
+  font-weight: bold;
+  margin-right: 10px;
+}
+.photo-section-image{
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+
+
+
+
+
+.personal-information{
+
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 20px;
+}
+
+.personal-information label{
+  opacity: 0.5;
+  font-size: 14px;
+}
+
+.edit-account-btn{
+  padding: 5px 0;
+  margin-top: 20px;
+  border: none;
+  background-color: rgb(0, 136, 255);
+  color: #fff;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+
+.all-user-web-reviews-title{
+  text-align: center;
+  margin-bottom: 30px;
+}
